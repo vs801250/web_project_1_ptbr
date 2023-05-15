@@ -48,7 +48,7 @@ li{
   right: 0;
   bottom: 0;
 }
-.header__square{
+.header__square:header__square_rotate{
   position: absolute;
   height: 568px;
   width: 568px;
@@ -56,6 +56,7 @@ li{
   background-color: #2f80ed;
   z-index: 0;
   right: 0;
+  transform: rotate(15deg);
 }
 
 .header__square-pic {
